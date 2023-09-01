@@ -1,5 +1,5 @@
-import css from './description.module.css' 
- export const Description = ({username, tag, location, avatar}) => {
+import css from './description.module.css'
+export const Description = ({ username, tag, location, avatar }) => {
     return <div className={css.description}>
         <img
             src={avatar}
