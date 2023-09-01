@@ -38,4 +38,4 @@ Description.propTypes = {
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
 }
-// username, tag, location, avatar
+
