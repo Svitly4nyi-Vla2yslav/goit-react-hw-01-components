@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import css from './Description.module.css'
 export const Description = ({ avatar, username, tag, location, followers, views, likes }) => {
-    console.log()
     return <div key={username} className={css.profile}>
         <div className={css.description}>
             <img
