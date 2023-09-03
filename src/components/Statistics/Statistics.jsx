@@ -4,7 +4,7 @@ import css from './Statistics.module.css'
 function randomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-export const Statistics = ({ stats, title}) => {
+export const Statistics = ({ stats, title }) => {
 
     return <section className={css.statistics}>
         <h2 className={css.title}>{title}</h2>
